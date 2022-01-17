@@ -51,7 +51,7 @@ Resources:
           -o /usr/local/bin/docker-compose
           chmod +x /usr/local/bin/docker-compose
           yum install git -y
-          git clone https://github.com/atbudak/clarusway-devops-project-203.git /home/ec2-user/
+          git clone https://github.com/atbudak/clarusway-devops-project-203.git /home/ec2-user/clarusway-devops-project-203
           cd /home/ec2-user/clarusway-devops-project-203
           docker-compose up -d
 Outputs:
